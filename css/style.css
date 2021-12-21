@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header section css code starting here */
+/* navbar css code starting here */
+.nav-link{
+    color: #131313;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    color: #131313;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* navbar css code end here */
+
+.mid{
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/bg-1.jpg') no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.mid .row h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.mid .row p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.mid .card{
+    border: none;
+}
+.mid .card .row select{
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+}
+.mid .card .row span{
+    font-weight: 600;
+    color: rgb(121, 106, 106);
+}
+.mid .card .row .btn1{
+    background-color: coral;
+    color: white;
+    outline: none;
+    border: none;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    padding: .6rem 0;
+}
+.mid .card .row .btn1:hover{
+    background-color: tomato;
+}
+/* header section css code end here */
+
+/* land section css code starting here */
+.land .row p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.land .row .btn2{
+    background-color: #131313;
+    color: #fff;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+/* land section css code end here */
+
+/* rent section css code starting here */
+.rent{
+    background-color: #F2EBE9;
+}
+.rent .row .card .btnR{
+    height: 45px;
+    width: 150px;
+    background-color: #fff;
+    color: #131313;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    padding: 10px;
+    font-weight: bold;
+}
+.rent .row .card p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    word-spacing: .1rem;
+}
+/* rent section css code end here */
+
+/* sell section css code starting here */
+.sell{
+    background-color: #F2EBE9;
+}
+.sell .row .card .btnR{
+    height: 45px;
+    width: 150px;
+    background-color: #fff;
+    color: #131313;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    padding: 10px;
+    font-weight: bold;
+}
+.sell .row .card p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    word-spacing: .1rem;
+}
+.sell .btnf{
+    background-color: #131313;
+    color: #fff;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+/* sell section css code end here */
+
+/* contact us section css code starting here */
+.contactus .row .form-row input[type="button"]{
+    background-color: #131313;
+    color: #fff;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+/* contact us section css code end here */
